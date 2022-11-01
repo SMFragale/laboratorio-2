@@ -1,0 +1,5 @@
+# Project exclude paths
+/personapp-ear/target/
+/personapp-ejb/target/
+/personapp-web/target/
+/target/

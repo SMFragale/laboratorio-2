@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.0" xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+    <!-- Define Persistence Unit -->
+    <persistence-unit name="my_persistence_unit">
+
+        <class>co.edu.javeriana.as.jakarta.personapp.ejb.entities.EstudiosEntity</class>
+        <class>co.edu.javeriana.as.jakarta.personapp.ejb.entities.PersonaEntity</class>
+        <class>co.edu.javeriana.as.jakarta.personapp.ejb.entities.ProfesionEntity</class>
+        <class>co.edu.javeriana.as.jakarta.personapp.ejb.entities.TelefonoEntity</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:mariadb://localhost:3306/arq_per_db"/>
+            <property name="toplink.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+            <property name="toplink.jdbc.user" value="root"/>
+            <property name="toplink.jdbc.password" value="password"/>
+            <property name="hibernate.connection.url" value="jdbc:mariadb://localhost:3306/arq_per_db"/>
+            <property name="hibernate.connection.driver_class" value="org.mariadb.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="password"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:mariadb://localhost:3306/arq_per_db"/>
+            <property name="openjpa.ConnectionDriverName" value="org.mariadb.jdbc.Driver"/>
+            <property name="openjpa.ConnectionUserName" value="root"/>
+            <property name="openjpa.ConnectionPassword" value="password"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:mariadb://localhost:3306/arq_per_db"/>
+            <property name="eclipselink.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.user" value="root"/>
+            <property name="eclipselink.jdbc.password" value="password"/>
+        </properties>
+    </persistence-unit>
+</persistence>

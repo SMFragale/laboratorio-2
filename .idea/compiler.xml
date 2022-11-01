@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="personapp-web" />
+        <module name="personapp-ear" />
+        <module name="personapp-ejb" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="personapp-ear" options="-endorseddirs &quot;C:\Users\smola\Downloads\personapp-jakarta1 (1)\personapp-jakarta1\personapp-ear\target/endorsed&quot;" />
+      <module name="personapp-ejb" options="-endorseddirs &quot;C:\Users\smola\Downloads\personapp-jakarta1 (1)\personapp-jakarta1\personapp-ejb\target/endorsed&quot;" />
+      <module name="personapp-web" options="-endorseddirs &quot;C:\Users\smola\Downloads\personapp-jakarta1 (1)\personapp-jakarta1\personapp-web\target/endorsed&quot;" />
+    </option>
+  </component>
+</project>
